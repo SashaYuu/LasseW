@@ -1,0 +1,55 @@
+{
+    "dogs": [
+      {
+        "breed": "Labrador Retriever",
+        "description": "Labrador Retrievers are friendly, outgoing, and high-spirited dogs known for their intelligence and obedience. They are one of the most popular dog breeds and make excellent family pets.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Labrador-retriever.jpg/1200px-Labrador-retriever.jpg"
+      },
+      {
+        "breed": "German Shepherd",
+        "description": "German Shepherds are loyal, courageous, and highly trainable. They are often used as police and service dogs due to their intelligence and versatility.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Solid_Black_German_Shepherd-_Copy.JPG/584px-Solid_Black_German_Shepherd-_Copy.JPG"
+      },
+      {
+        "breed": "Golden Retriever",
+        "description": "Golden Retrievers are friendly, intelligent, and devoted. They are known for their gentle temperament, making them great companions for families and individuals alike.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Golden_retriever.jpg/547px-Golden_retriever.jpg"
+      },
+      {
+        "breed": "Beagle",
+        "description": "Beagles are curious, friendly, and good with children. They have a strong sense of smell and are often used as detection dogs.",
+        "image": "https://media.istockphoto.com/id/187451538/photo/beagle-puppy-howling-looking-up-isolated-on-white.jpg?s=612x612&w=0&k=20&c=gKNMB9WDc1S38B9VMVj9KfeUZ7wkQmcaZrGrQ0x4Vws="
+      },
+      {
+        "breed": "Poodle",
+        "description": "Poodles are known for their intelligence, elegance, and hypoallergenic coat. They come in three sizes: standard, miniature, and toy.",
+        "image": "https://media.istockphoto.com/id/490849353/photo/cute-white-male-poodle-puppy.jpg?s=612x612&w=0&k=20&c=kKPn9_U2N0G1OCPWIZnhHmBs7f_ZPcWAR3bzQ29njBM="
+      },
+      {
+        "breed": "Bulldog",
+        "description": "Bulldogs are docile, willful, and friendly. They have a distinctive wrinkled face and pushed-in nose, making them easily recognizable.",
+        "image": "https://t4.ftcdn.net/jpg/00/86/67/45/360_F_86674540_3e6FWLLSXXKkjC5gwcAMy4JIPyfubCvU.jpg"
+      },
+      {
+        "breed": "Dachshund",
+        "description": "Dachshunds, or wiener dogs, are clever, lively, and courageous. They have a long body and short legs, making them unique and adorable.",
+        "image": "https://cdn.pixabay.com/photo/2016/07/15/15/55/dachshund-1519374_1280.jpg"
+      },
+      {
+        "breed": "Siberian Husky",
+        "description": "Siberian Huskies are friendly, outgoing, and energetic. They are known for their striking appearance with a thick double coat and distinctive markings.",
+        "image": "https://media.istockphoto.com/id/1210779627/photo/happy-siberian-husky-dog-posing-outdoors-in-summer.jpg?s=612x612&w=0&k=20&c=d7bcQ-vHypuNh621_x5cEfze0nyjcnyookWr5aNZqGM="
+      },
+      {
+        "breed": "Shih Tzu",
+        "description": "Shih Tzus are affectionate, outgoing, and alert. They have a distinctive long, flowing coat and a friendly disposition.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Shih_Tzu_puppy_-_20070802.jpg"
+      },
+      {
+        "breed": "Boxer",
+        "description": "Boxers are playful, energetic, and loyal. They are known for their strong jaws and love for physical activity, making them great companions for active families.",
+        "image": "https://www.shutterstock.com/image-photo/loyal-companion-portrait-boxer-dog-600nw-2272988387.jpg"
+      }
+    ]
+  }
+  
