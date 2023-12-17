@@ -19,33 +19,26 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#dog">Dogs</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
-                      </li>
-                  </ul>
+                        <a class="nav-link" href="#cocktails">Cocktails</a>
+                      </li>                    
               </div>
           </div>
+          
       </nav>
   </section>
 
   
-  <section class=" first-section">
+  <section id="home" class="first-section">
     <article class="row" >
       <article class="col text-center">
-
-        <div class=" hero-image p-5 text-center bg-image rounded-3"></div>
+        <div class="img-fluid hero-image p-5 text-center bg-image rounded-3"></div>
          <!-- <img class="hero-image img-fluid" src="https://thumbs.dreamstime.com/b/retired-senior-man-vibing-to-hype-pop-music-portrait-funny-rich-white-haired-old-grandpa-cool-glasses-leopard-patterned-216503535.jpg" alt="Lasse"> -->
       <div class="hero-text">
         <h1 style="font-size:50px">I am Lasse</h1>
@@ -56,17 +49,17 @@
   </section>
 
 
-  <section class="container shadow-lg second-section">
+  <section id="dog" class="container shadow-lg second-section">
     <section class="row text-center">
         <article class="col-12">
             <article class="card">
                 <section class="card-body">
-                    <h4 class="card-title">Choose <span class="fancy">dog</span> of the day for Lasse</h4>
-                    <button onclick="getRandomBreed" id="randomBtn" class="btn btn-outline-dark">Random dog breed</button>
+                    <h4 style="color: white;" class="card-title">Choose <span class="fancy">dog</span> of the day for Lasse</h4>
+                    <button style="color: white;" onclick="getRandomBreed" id="randomBtn" class="btn btn-outline-dark">Random dog breed</button>
                     <p></p>
                     <img class="img-fluid" id="image" src="" alt="">
-                    <h2 id="breed"></h2>
-                    <h5>Description</h5>
+                    <h2 style="color: white;" id="breed"></h2>
+                    <h5 style="color: white;">Description</h5>
                     <p id="description"></p>
                 </section>
             </article>
@@ -74,6 +67,22 @@
     </section>
 </section>
 
+
+
+<section id="cocktails" class="container shadow-lg third-section">
+    <article class="col">
+      <article class="row">
+        <article class="col text-center">
+            <h3 style="font-family: 'Times New Roman', Times, serif;">Search for cocktails to make</h3>
+          <form id="form" class="d-flex" role="search">
+            <input id="searchInput" class="form-control typeahead me-2" type="text" placeholder="Search" aria-label="Search">
+            <button  id="searchBtn" class="btn typehead btn-outline-success" type="submit">Search</button>
+          </form>
+        </article>
+        <article id="searchResults" class="container"></article>
+      </article>
+    </article>
+  </section>
   
 
 
@@ -84,8 +93,8 @@
 
 
 
-
-
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script type="module" src="src/ts/main.ts"></script>  </body>
 </html>
