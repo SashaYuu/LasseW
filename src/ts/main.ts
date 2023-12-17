@@ -47,7 +47,6 @@ document.getElementById('form').addEventListener('submit', function (event) {
       })
       .catch(error => console.error('Error:', error));
   });
-  
   function displayResults(drinks) {
     var resultsSection = document.getElementById('searchResults');
     resultsSection.innerHTML = '';
@@ -73,10 +72,29 @@ document.getElementById('form').addEventListener('submit', function (event) {
         drinkInstructions.classList.add('card-text');
         drinkInstructions.textContent = drink.strInstructions;
   
+
+  
+        // Display ingredients as a comma-separated list
+        var ingredients = [];
+
+  
         cardBody.appendChild(drinkTitle);
         cardBody.appendChild(drinkImage);
         cardBody.appendChild(drinkInstructions);
         drinkCard.appendChild(cardBody);
+        for (let i = 1; i <= 7; i++) {
+            var ingredient = drink['strIngredient' + i];
+            if (ingredient) {
+              ingredients.push(ingredient);
+            }
+          }
+    
+          if (ingredients.length > 0) {
+            var ingredientsText = document.createElement('p');
+            ingredientsText.classList.add('card-text');
+            ingredientsText.textContent = 'Ingredients: ' + ingredients.join(', ');
+            cardBody.appendChild(ingredientsText);
+          }
   
         resultsSection.appendChild(drinkCard);
       });
@@ -86,6 +104,8 @@ document.getElementById('form').addEventListener('submit', function (event) {
       resultsSection.appendChild(noResultsMessage);
     }
   }
+  
+  
 
 
   document.querySelectorAll('a.nav-link').forEach(anchor => {
